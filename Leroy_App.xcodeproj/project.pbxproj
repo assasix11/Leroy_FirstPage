@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE163C68262A1E0D0007E638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE163C67262A1E0D0007E638 /* AppDelegate.swift */; };
+		FE163C6A262A1E0D0007E638 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE163C69262A1E0D0007E638 /* SceneDelegate.swift */; };
+		FE163C6C262A1E0D0007E638 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE163C6B262A1E0D0007E638 /* ViewController.swift */; };
+		FE163C6F262A1E0D0007E638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE163C6D262A1E0D0007E638 /* Main.storyboard */; };
+		FE163C71262A1E100007E638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE163C70262A1E100007E638 /* Assets.xcassets */; };
+		FE163C74262A1E100007E638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE163C72262A1E100007E638 /* LaunchScreen.storyboard */; };
+		FEAB54EB262B09EB00C0C98B /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEAB54EA262B09EB00C0C98B /* Inter-Bold.ttf */; };
+		FEAB54EE262B0A0A00C0C98B /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEAB54ED262B0A0A00C0C98B /* Inter-Regular.ttf */; };
+		FEAB54F1262B0A1200C0C98B /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEAB54F0262B0A1200C0C98B /* Inter-Medium.ttf */; };
+		FEAB54FD262B4F4600C0C98B /* ProductStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAB54FC262B4F4600C0C98B /* ProductStruct.swift */; };
+		FEFCE640262CA9C4005458DA /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFCE63F262CA9C4005458DA /* Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE163C64262A1E0D0007E638 /* Leroy_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leroy_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE163C67262A1E0D0007E638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE163C69262A1E0D0007E638 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE163C6B262A1E0D0007E638 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE163C6E262A1E0D0007E638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE163C70262A1E100007E638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE163C73262A1E100007E638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE163C75262A1E100007E638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEAB54EA262B09EB00C0C98B /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		FEAB54ED262B0A0A00C0C98B /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		FEAB54F0262B0A1200C0C98B /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		FEAB54FC262B4F4600C0C98B /* ProductStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductStruct.swift; sourceTree = "<group>"; };
+		FEFCE63F262CA9C4005458DA /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE163C61262A1E0D0007E638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE163C5B262A1E0D0007E638 = {
+			isa = PBXGroup;
+			children = (
+				FE163C66262A1E0D0007E638 /* Leroy_App */,
+				FE163C65262A1E0D0007E638 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE163C65262A1E0D0007E638 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE163C64262A1E0D0007E638 /* Leroy_App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE163C66262A1E0D0007E638 /* Leroy_App */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB54E9262B09C600C0C98B /* Resources */,
+				FE163C67262A1E0D0007E638 /* AppDelegate.swift */,
+				FE163C69262A1E0D0007E638 /* SceneDelegate.swift */,
+				FE163C6B262A1E0D0007E638 /* ViewController.swift */,
+				FEFCE63F262CA9C4005458DA /* Extension.swift */,
+				FEAB54FC262B4F4600C0C98B /* ProductStruct.swift */,
+				FE163C6D262A1E0D0007E638 /* Main.storyboard */,
+				FE163C70262A1E100007E638 /* Assets.xcassets */,
+				FE163C72262A1E100007E638 /* LaunchScreen.storyboard */,
+				FE163C75262A1E100007E638 /* Info.plist */,
+			);
+			path = Leroy_App;
+			sourceTree = "<group>";
+		};
+		FEAB54E9262B09C600C0C98B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB54ED262B0A0A00C0C98B /* Inter-Regular.ttf */,
+				FEAB54F0262B0A1200C0C98B /* Inter-Medium.ttf */,
+				FEAB54EA262B09EB00C0C98B /* Inter-Bold.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE163C63262A1E0D0007E638 /* Leroy_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE163C78262A1E100007E638 /* Build configuration list for PBXNativeTarget "Leroy_App" */;
+			buildPhases = (
+				FE163C60262A1E0D0007E638 /* Sources */,
+				FE163C61262A1E0D0007E638 /* Frameworks */,
+				FE163C62262A1E0D0007E638 /* Resources */,
+				FE28F44E262F495A009D7F3A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Leroy_App;
+			productName = Leroy_App;
+			productReference = FE163C64262A1E0D0007E638 /* Leroy_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE163C5C262A1E0D0007E638 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FE163C63262A1E0D0007E638 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FE163C5F262A1E0D0007E638 /* Build configuration list for PBXProject "Leroy_App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE163C5B262A1E0D0007E638;
+			productRefGroup = FE163C65262A1E0D0007E638 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE163C63262A1E0D0007E638 /* Leroy_App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE163C62262A1E0D0007E638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE163C74262A1E100007E638 /* LaunchScreen.storyboard in Resources */,
+				FEAB54EE262B0A0A00C0C98B /* Inter-Regular.ttf in Resources */,
+				FEAB54F1262B0A1200C0C98B /* Inter-Medium.ttf in Resources */,
+				FE163C71262A1E100007E638 /* Assets.xcassets in Resources */,
+				FEAB54EB262B09EB00C0C98B /* Inter-Bold.ttf in Resources */,
+				FE163C6F262A1E0D0007E638 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FE28F44E262F495A009D7F3A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE163C60262A1E0D0007E638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFCE640262CA9C4005458DA /* Extension.swift in Sources */,
+				FEAB54FD262B4F4600C0C98B /* ProductStruct.swift in Sources */,
+				FE163C6C262A1E0D0007E638 /* ViewController.swift in Sources */,
+				FE163C68262A1E0D0007E638 /* AppDelegate.swift in Sources */,
+				FE163C6A262A1E0D0007E638 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE163C6D262A1E0D0007E638 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE163C6E262A1E0D0007E638 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE163C72262A1E100007E638 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE163C73262A1E100007E638 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE163C76262A1E100007E638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE163C77262A1E100007E638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE163C79262A1E100007E638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7675YAGFS;
+				INFOPLIST_FILE = Leroy_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dima.Leroy-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE163C7A262A1E100007E638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7675YAGFS;
+				INFOPLIST_FILE = Leroy_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dima.Leroy-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE163C5F262A1E0D0007E638 /* Build configuration list for PBXProject "Leroy_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE163C76262A1E100007E638 /* Debug */,
+				FE163C77262A1E100007E638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE163C78262A1E100007E638 /* Build configuration list for PBXNativeTarget "Leroy_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE163C79262A1E100007E638 /* Debug */,
+				FE163C7A262A1E100007E638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE163C5C262A1E0D0007E638 /* Project object */;
+}
