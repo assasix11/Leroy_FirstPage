@@ -157,7 +157,7 @@ extension ViewController : UIScrollViewDelegate {
             if offset.x - startPosition > pixelsToPoints(pixels: (256 + 28)*4) {
                 plusRectangles = 1
             } else if offset.x - startPosition < pixelsToPoints(pixels: (256 + 28)*4) && offset.x - startPosition > 0 {
-                plusRectangles = 0
+                plusRectangles = 1
             } else if offset.x - startPosition < 0 && offset.x - startPosition < -pixelsToPoints(pixels: (256 + 28)*2) {
                 plusRectangles = -1
             } else if offset.x - startPosition < 0 && offset.x - startPosition > -pixelsToPoints(pixels: (256 + 28)*2) {
@@ -180,9 +180,9 @@ extension ViewController : UIScrollViewDelegate {
             }
         let index = (startPosition + scrollView.contentInset.left) / cellWidthIncludingSpacing
             let roundedIndex = round(index)
-            if offset.x - startPosition > pixelsToPoints(pixels: (302)*Int(6)) {
+            if offset.x - startPosition > pixelsToPoints(pixels: (302)*Int(3)) {
                 plusRectangles = 1
-            } else if offset.x - startPosition < pixelsToPoints(pixels: (302)*Int(6)) && offset.x - startPosition > 0 {
+            } else if offset.x - startPosition < pixelsToPoints(pixels: (302)*Int(3)) && offset.x - startPosition > 0 {
                 plusRectangles = 0
             } else if offset.x - startPosition < 0 && offset.x - startPosition < -pixelsToPoints(pixels: (302)*2) {
                 plusRectangles = -1
