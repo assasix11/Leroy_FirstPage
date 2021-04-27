@@ -36,7 +36,7 @@ extension ViewController : UIScrollViewDelegate {
                     yOfBang = pixelsToPoints(pixels: 88)
                     colorOfHightView = getUIColor(hex: "FFFFFF")?.cgColor
                     sizeOfFontOnSearchBar = pixelsToPoints(pixels: 38)
-                case 2688, 2778, 2340:
+                case 2688, 2778, 2340, 2532:
                     //print("iPhone XS Max/11 Pro Max/12 Pro Max/mini")
                     heightOfBang = pixelsToPoints(pixels: 108)
                     yOfBang = pixelsToPoints(pixels: 88)
@@ -202,7 +202,7 @@ extension ViewController : UIScrollViewDelegate {
         var offset  = targetContentOffset.pointee
             var magneticPoint: CGFloat!
             switch UIScreen.main.nativeBounds.height {
-            case 2688, 2778, 1792, 2436, 2340:
+            case 2688, 2778, 1792, 2436, 2340, 2532:
                 magneticPoint = 105
 
             default:
